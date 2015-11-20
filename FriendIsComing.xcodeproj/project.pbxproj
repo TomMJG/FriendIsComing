@@ -7,21 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1681AA98AF4539F82FAAB1EC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8230FA843926F10A23917DD5 /* libPods.a */; };
 		2598231A1BFF010300C29725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823191BFF010300C29725 /* AppDelegate.swift */; };
-		2598231C1BFF010300C29725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598231B1BFF010300C29725 /* ViewController.swift */; };
 		2598231F1BFF010300C29725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2598231D1BFF010300C29725 /* Main.storyboard */; };
 		259823211BFF010300C29725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259823201BFF010300C29725 /* Assets.xcassets */; };
 		259823241BFF010300C29725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259823221BFF010300C29725 /* LaunchScreen.storyboard */; };
+		2598232C1BFF010D00C29725 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2598232B1BFF010D00C29725 /* Podfile */; };
+		259823491BFF025300C29725 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823301BFF025300C29725 /* AboutViewController.swift */; };
+		2598234A1BFF025300C29725 /* AddFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823311BFF025300C29725 /* AddFriend.swift */; };
+		2598234B1BFF025300C29725 /* choosePortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823321BFF025300C29725 /* choosePortraitViewController.swift */; };
+		2598234C1BFF025300C29725 /* confirmAddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823331BFF025300C29725 /* confirmAddFriendViewController.swift */; };
+		2598234D1BFF025300C29725 /* ConversationlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823341BFF025300C29725 /* ConversationlistViewController.swift */; };
+		2598234E1BFF025300C29725 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823351BFF025300C29725 /* ConversationViewController.swift */; };
+		2598234F1BFF025300C29725 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823361BFF025300C29725 /* data.swift */; };
+		259823501BFF025300C29725 /* ForgetPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823371BFF025300C29725 /* ForgetPassViewController.swift */; };
+		259823511BFF025300C29725 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823381BFF025300C29725 /* LoginViewController.swift */; };
+		259823521BFF025300C29725 /* ModefyAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823391BFF025300C29725 /* ModefyAnswerViewController.swift */; };
+		259823531BFF025300C29725 /* ModefyNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598233A1BFF025300C29725 /* ModefyNameViewController.swift */; };
+		259823541BFF025300C29725 /* ModefyPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598233B1BFF025300C29725 /* ModefyPassViewController.swift */; };
+		259823551BFF025300C29725 /* ModefyPortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598233C1BFF025300C29725 /* ModefyPortraitViewController.swift */; };
+		259823561BFF025300C29725 /* nearFriendChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598233D1BFF025300C29725 /* nearFriendChatViewController.swift */; };
+		259823571BFF025300C29725 /* RegsiterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598233E1BFF025300C29725 /* RegsiterViewController.swift */; };
+		259823581BFF025300C29725 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2598233F1BFF025300C29725 /* RoundImageView.swift */; };
+		259823591BFF025300C29725 /* RunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823401BFF025300C29725 /* RunViewController.swift */; };
+		2598235A1BFF025300C29725 /* SearchFriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823411BFF025300C29725 /* SearchFriendListViewController.swift */; };
+		2598235B1BFF025300C29725 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823421BFF025300C29725 /* SearchViewController.swift */; };
+		2598235C1BFF025300C29725 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823431BFF025300C29725 /* ServiceViewController.swift */; };
+		2598235D1BFF025300C29725 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823441BFF025300C29725 /* SettingTableViewController.swift */; };
+		2598235E1BFF025300C29725 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823451BFF025300C29725 /* SwiftNotice.swift */; };
+		2598235F1BFF025300C29725 /* UITextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259823461BFF025300C29725 /* UITextBox.swift */; };
+		259823601BFF025300C29725 /* UIView+ViewRecursion.m in Sources */ = {isa = PBXBuildFile; fileRef = 259823481BFF025300C29725 /* UIView+ViewRecursion.m */; };
+		259823641BFF032900C29725 /* FriendIsComing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 259823621BFF032900C29725 /* FriendIsComing.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		259823161BFF010300C29725 /* FriendIsComing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendIsComing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		259823191BFF010300C29725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2598231B1BFF010300C29725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2598231E1BFF010300C29725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		259823201BFF010300C29725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		259823231BFF010300C29725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		259823251BFF010300C29725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2598232B1BFF010D00C29725 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2598232D1BFF01BF00C29725 /* FriendIsComing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FriendIsComing-Bridging-Header.h"; sourceTree = "<group>"; };
+		259823301BFF025300C29725 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = "../../文件夹/Chat/Chat/AboutViewController.swift"; sourceTree = "<group>"; };
+		259823311BFF025300C29725 /* AddFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddFriend.swift; path = "../../文件夹/Chat/Chat/AddFriend.swift"; sourceTree = "<group>"; };
+		259823321BFF025300C29725 /* choosePortraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = choosePortraitViewController.swift; path = "../../文件夹/Chat/Chat/choosePortraitViewController.swift"; sourceTree = "<group>"; };
+		259823331BFF025300C29725 /* confirmAddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = confirmAddFriendViewController.swift; path = "../../文件夹/Chat/Chat/confirmAddFriendViewController.swift"; sourceTree = "<group>"; };
+		259823341BFF025300C29725 /* ConversationlistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversationlistViewController.swift; path = "../../文件夹/Chat/Chat/ConversationlistViewController.swift"; sourceTree = "<group>"; };
+		259823351BFF025300C29725 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversationViewController.swift; path = "../../文件夹/Chat/Chat/ConversationViewController.swift"; sourceTree = "<group>"; };
+		259823361BFF025300C29725 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = data.swift; path = "../../文件夹/Chat/Chat/data.swift"; sourceTree = "<group>"; };
+		259823371BFF025300C29725 /* ForgetPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForgetPassViewController.swift; path = "../../文件夹/Chat/Chat/ForgetPassViewController.swift"; sourceTree = "<group>"; };
+		259823381BFF025300C29725 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../文件夹/Chat/Chat/LoginViewController.swift"; sourceTree = "<group>"; };
+		259823391BFF025300C29725 /* ModefyAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModefyAnswerViewController.swift; path = "../../文件夹/Chat/Chat/ModefyAnswerViewController.swift"; sourceTree = "<group>"; };
+		2598233A1BFF025300C29725 /* ModefyNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModefyNameViewController.swift; path = "../../文件夹/Chat/Chat/ModefyNameViewController.swift"; sourceTree = "<group>"; };
+		2598233B1BFF025300C29725 /* ModefyPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModefyPassViewController.swift; path = "../../文件夹/Chat/Chat/ModefyPassViewController.swift"; sourceTree = "<group>"; };
+		2598233C1BFF025300C29725 /* ModefyPortraitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModefyPortraitViewController.swift; path = "../../文件夹/Chat/Chat/ModefyPortraitViewController.swift"; sourceTree = "<group>"; };
+		2598233D1BFF025300C29725 /* nearFriendChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = nearFriendChatViewController.swift; path = "../../文件夹/Chat/Chat/nearFriendChatViewController.swift"; sourceTree = "<group>"; };
+		2598233E1BFF025300C29725 /* RegsiterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegsiterViewController.swift; path = "../../文件夹/Chat/Chat/RegsiterViewController.swift"; sourceTree = "<group>"; };
+		2598233F1BFF025300C29725 /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundImageView.swift; path = "../../文件夹/Chat/Chat/RoundImageView.swift"; sourceTree = "<group>"; };
+		259823401BFF025300C29725 /* RunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RunViewController.swift; path = "../../文件夹/Chat/Chat/RunViewController.swift"; sourceTree = "<group>"; };
+		259823411BFF025300C29725 /* SearchFriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchFriendListViewController.swift; path = "../../文件夹/Chat/Chat/SearchFriendListViewController.swift"; sourceTree = "<group>"; };
+		259823421BFF025300C29725 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = "../../文件夹/Chat/Chat/SearchViewController.swift"; sourceTree = "<group>"; };
+		259823431BFF025300C29725 /* ServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceViewController.swift; path = "../../文件夹/Chat/Chat/ServiceViewController.swift"; sourceTree = "<group>"; };
+		259823441BFF025300C29725 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingTableViewController.swift; path = "../../文件夹/Chat/Chat/SettingTableViewController.swift"; sourceTree = "<group>"; };
+		259823451BFF025300C29725 /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftNotice.swift; path = "../../文件夹/Chat/Chat/SwiftNotice.swift"; sourceTree = "<group>"; };
+		259823461BFF025300C29725 /* UITextBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITextBox.swift; path = "../../文件夹/Chat/Chat/UITextBox.swift"; sourceTree = "<group>"; };
+		259823471BFF025300C29725 /* UIView+ViewRecursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ViewRecursion.h"; path = "../../文件夹/Chat/Chat/UIView+ViewRecursion.h"; sourceTree = "<group>"; };
+		259823481BFF025300C29725 /* UIView+ViewRecursion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ViewRecursion.m"; path = "../../文件夹/Chat/Chat/UIView+ViewRecursion.m"; sourceTree = "<group>"; };
+		259823631BFF032900C29725 /* FriendIsComing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendIsComing.xcdatamodel; sourceTree = "<group>"; };
+		814E72A2722EE90A192853FF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8230FA843926F10A23917DD5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5AC69A15A4C952F351A3DA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +85,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1681AA98AF4539F82FAAB1EC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		073B7F960306BB02CC29ECB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				814E72A2722EE90A192853FF /* Pods.debug.xcconfig */,
+				BC5AC69A15A4C952F351A3DA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2598230D1BFF010300C29725 = {
 			isa = PBXGroup;
 			children = (
+				2598232B1BFF010D00C29725 /* Podfile */,
 				259823181BFF010300C29725 /* FriendIsComing */,
 				259823171BFF010300C29725 /* Products */,
+				073B7F960306BB02CC29ECB0 /* Pods */,
+				79DA7FB08C940C63107D92C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +123,56 @@
 		259823181BFF010300C29725 /* FriendIsComing */ = {
 			isa = PBXGroup;
 			children = (
+				259823611BFF02AB00C29725 /* third part */,
 				259823191BFF010300C29725 /* AppDelegate.swift */,
-				2598231B1BFF010300C29725 /* ViewController.swift */,
 				2598231D1BFF010300C29725 /* Main.storyboard */,
 				259823201BFF010300C29725 /* Assets.xcassets */,
 				259823221BFF010300C29725 /* LaunchScreen.storyboard */,
+				259823621BFF032900C29725 /* FriendIsComing.xcdatamodeld */,
 				259823251BFF010300C29725 /* Info.plist */,
+				2598232D1BFF01BF00C29725 /* FriendIsComing-Bridging-Header.h */,
+				259823301BFF025300C29725 /* AboutViewController.swift */,
+				259823311BFF025300C29725 /* AddFriend.swift */,
+				259823321BFF025300C29725 /* choosePortraitViewController.swift */,
+				259823331BFF025300C29725 /* confirmAddFriendViewController.swift */,
+				259823341BFF025300C29725 /* ConversationlistViewController.swift */,
+				259823351BFF025300C29725 /* ConversationViewController.swift */,
+				259823361BFF025300C29725 /* data.swift */,
+				259823371BFF025300C29725 /* ForgetPassViewController.swift */,
+				259823381BFF025300C29725 /* LoginViewController.swift */,
+				259823391BFF025300C29725 /* ModefyAnswerViewController.swift */,
+				2598233A1BFF025300C29725 /* ModefyNameViewController.swift */,
+				2598233B1BFF025300C29725 /* ModefyPassViewController.swift */,
+				2598233C1BFF025300C29725 /* ModefyPortraitViewController.swift */,
+				2598233D1BFF025300C29725 /* nearFriendChatViewController.swift */,
+				2598233E1BFF025300C29725 /* RegsiterViewController.swift */,
+				2598233F1BFF025300C29725 /* RoundImageView.swift */,
+				259823401BFF025300C29725 /* RunViewController.swift */,
+				259823411BFF025300C29725 /* SearchFriendListViewController.swift */,
+				259823421BFF025300C29725 /* SearchViewController.swift */,
+				259823431BFF025300C29725 /* ServiceViewController.swift */,
+				259823441BFF025300C29725 /* SettingTableViewController.swift */,
 			);
 			path = FriendIsComing;
+			sourceTree = "<group>";
+		};
+		259823611BFF02AB00C29725 /* third part */ = {
+			isa = PBXGroup;
+			children = (
+				259823451BFF025300C29725 /* SwiftNotice.swift */,
+				259823461BFF025300C29725 /* UITextBox.swift */,
+				259823471BFF025300C29725 /* UIView+ViewRecursion.h */,
+				259823481BFF025300C29725 /* UIView+ViewRecursion.m */,
+			);
+			name = "third part";
+			sourceTree = "<group>";
+		};
+		79DA7FB08C940C63107D92C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8230FA843926F10A23917DD5 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 259823281BFF010300C29725 /* Build configuration list for PBXNativeTarget "FriendIsComing" */;
 			buildPhases = (
+				DEB011C9618A9E6E9041190F /* Check Pods Manifest.lock */,
 				259823121BFF010300C29725 /* Sources */,
 				259823131BFF010300C29725 /* Frameworks */,
 				259823141BFF010300C29725 /* Resources */,
+				29173C042A72E61012FCA37F /* Embed Pods Frameworks */,
+				EA59B3843CFF2C455652976E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,19 +238,92 @@
 			files = (
 				259823241BFF010300C29725 /* LaunchScreen.storyboard in Resources */,
 				259823211BFF010300C29725 /* Assets.xcassets in Resources */,
+				2598232C1BFF010D00C29725 /* Podfile in Resources */,
 				2598231F1BFF010300C29725 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29173C042A72E61012FCA37F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEB011C9618A9E6E9041190F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA59B3843CFF2C455652976E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		259823121BFF010300C29725 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2598231C1BFF010300C29725 /* ViewController.swift in Sources */,
+				2598235F1BFF025300C29725 /* UITextBox.swift in Sources */,
+				259823571BFF025300C29725 /* RegsiterViewController.swift in Sources */,
+				259823491BFF025300C29725 /* AboutViewController.swift in Sources */,
+				2598235E1BFF025300C29725 /* SwiftNotice.swift in Sources */,
+				259823561BFF025300C29725 /* nearFriendChatViewController.swift in Sources */,
+				2598235A1BFF025300C29725 /* SearchFriendListViewController.swift in Sources */,
+				2598234E1BFF025300C29725 /* ConversationViewController.swift in Sources */,
+				2598235C1BFF025300C29725 /* ServiceViewController.swift in Sources */,
 				2598231A1BFF010300C29725 /* AppDelegate.swift in Sources */,
+				259823641BFF032900C29725 /* FriendIsComing.xcdatamodeld in Sources */,
+				259823601BFF025300C29725 /* UIView+ViewRecursion.m in Sources */,
+				259823551BFF025300C29725 /* ModefyPortraitViewController.swift in Sources */,
+				259823591BFF025300C29725 /* RunViewController.swift in Sources */,
+				259823501BFF025300C29725 /* ForgetPassViewController.swift in Sources */,
+				2598234C1BFF025300C29725 /* confirmAddFriendViewController.swift in Sources */,
+				2598234A1BFF025300C29725 /* AddFriend.swift in Sources */,
+				2598234B1BFF025300C29725 /* choosePortraitViewController.swift in Sources */,
+				259823531BFF025300C29725 /* ModefyNameViewController.swift in Sources */,
+				2598235D1BFF025300C29725 /* SettingTableViewController.swift in Sources */,
+				259823521BFF025300C29725 /* ModefyAnswerViewController.swift in Sources */,
+				2598235B1BFF025300C29725 /* SearchViewController.swift in Sources */,
+				2598234F1BFF025300C29725 /* data.swift in Sources */,
+				2598234D1BFF025300C29725 /* ConversationlistViewController.swift in Sources */,
+				259823511BFF025300C29725 /* LoginViewController.swift in Sources */,
+				259823541BFF025300C29725 /* ModefyPassViewController.swift in Sources */,
+				259823581BFF025300C29725 /* RoundImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,23 +432,32 @@
 		};
 		259823291BFF010300C29725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814E72A2722EE90A192853FF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FriendIsComing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.genii.FriendIsComing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genii.friend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FriendIsComing/FriendIsComing-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		2598232A1BFF010300C29725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC5AC69A15A4C952F351A3DA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FriendIsComing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.genii.FriendIsComing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genii.friend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FriendIsComing/FriendIsComing-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -284,8 +480,22 @@
 				2598232A1BFF010300C29725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		259823621BFF032900C29725 /* FriendIsComing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				259823631BFF032900C29725 /* FriendIsComing.xcdatamodel */,
+			);
+			currentVersion = 259823631BFF032900C29725 /* FriendIsComing.xcdatamodel */;
+			path = FriendIsComing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2598230E1BFF010300C29725 /* Project object */;
 }
